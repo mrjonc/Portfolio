@@ -48,13 +48,13 @@ function NavBar() {
         </div>
         <div className={styles.informations}>
           <button>
-            <Link to="/about">Sobre mim</Link>
+            <Link to="/">Sobre mim</Link>
+          </button>
+          <button>
+            <Link to="/skills">Habilidades</Link>
           </button>
           <button>
             <Link to="/projects">Projetos</Link>
-          </button>
-          <button>
-            <Link to="/skills">Skills</Link>
           </button>
         </div>
       </nav>
