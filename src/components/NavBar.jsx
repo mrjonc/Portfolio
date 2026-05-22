@@ -8,10 +8,7 @@ function NavBar() {
     <>
       <nav className={styles.navBar}>
         <div className={styles.contacts}>
-          <img
-            src="../public/assets/foto-perfil.jpg"
-            alt="Foto do Desenvolvedor"
-          />
+          <img src="/assets/foto-perfil.jpg" alt="Foto do Desenvolvedor" />
           <div className={styles.links}>
             <a
               href="https://github.com/mrjonc"
