@@ -44,3 +44,13 @@
     height: auto;
   }
 }
+
+@media (max-width: 768px) {
+  .containerLeft h1 {
+    display: flex;
+  }
+
+  .containerLeft p {
+    font-size: 1.2rem;
+  }
+}

@@ -74,3 +74,31 @@ a {
 .card button:hover {
   background-color: rgb(29, 26, 26);
 }
+
+@media (max-width: 768px) {
+  .cards {
+    gap: 15px;
+    padding: 0 10px;
+  }
+
+  .card {
+    width: calc(50% - 10px);
+    min-width: 160px;
+    padding: 0.8rem;
+  }
+
+  .card img {
+    width: 160px;
+    height: 80px;
+  }
+
+  a,
+  button {
+    padding: 0.2rem;
+  }
+
+  .tags {
+    display: flex;
+    gap: 0.2rem;
+  }
+}
