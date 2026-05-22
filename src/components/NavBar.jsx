@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import styles from "../components/NavBar.module.css";
 
@@ -20,12 +21,12 @@ function NavBar() {
             </a>
 
             <a
-              href="https://www.instagram.com/mr_jon____/"
+              href="https://wa.me/5585988618469"
               target="_blank"
               rel="noreferrer"
             >
-              <FaInstagram />
-              @mr_jon___
+              <FaWhatsapp />
+              (85) 98861-8469
             </a>
 
             <a
