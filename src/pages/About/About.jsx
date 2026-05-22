@@ -20,7 +20,7 @@ function About() {
 
         <div className={styles.containerRight}>
           <img
-            src="../public/assets/pagina-programacao.jpg"
+            src="/assets/pagina-programacao.jpg"
             alt="Tela com codigos em JavaScript"
           />
         </div>

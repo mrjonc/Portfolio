@@ -40,6 +40,7 @@
   justify-content: space-between;
   flex-grow: 1;
   width: 100%;
+  gap: 0.5rem;
 }
 
 .tags {
@@ -54,4 +55,22 @@
   background-color: rgba(0, 0, 0, 0.153);
   padding: 0.6rem;
   border-radius: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.card button {
+  background: none;
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.card button:hover {
+  background-color: rgb(29, 26, 26);
 }
