@@ -23,13 +23,13 @@ section {
 
 @media (max-width: 768px) {
   main {
-    margin-top: 70px; /* Ajusta o topo do conteúdo para a barra menor */
-    padding: 10px;
+    margin-top: 190px; /* Empurra o conteúdo para baixo da barra */
+    padding: 15px;
   }
 
   section {
-    scroll-margin-top: 70px; /* Faz o clique da navbar parar certinho na barra de 70px */
-    min-height: calc(100vh - 70px);
-    padding: 20px 0;
+    scroll-margin-top: 190px; /* O scroll para no lugar certinho */
+    min-height: calc(100vh - 190px);
+    padding: 30px 0;
   }
 }
