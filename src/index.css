@@ -10,3 +10,13 @@ html {
   color: #ffffff;
   font-family: "Inter", sans-serif;
 }
+
+main {
+  margin-top: 240px;
+}
+
+section {
+  scroll-margin-top: 240px;
+  min-height: calc(100vh - 240px);
+  padding: 60px 20px;
+}
