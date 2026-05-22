@@ -74,3 +74,35 @@
 .informations a:hover {
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .navBar {
+    height: 70px; /* Reduz drasticamente a altura no celular */
+    padding: 0 20px;
+    flex-direction: row; /* Mantém tudo em uma linha só */
+  }
+
+  .navBar img {
+    display: none; /* Esconde a foto no celular para poupar espaço */
+  }
+
+  .contacts {
+    gap: 10px;
+  }
+
+  .links {
+    gap: 12px;
+  }
+
+  .links a {
+    font-size: 1.2rem; /* Ícones um pouquinho maiores para facilitar o toque */
+  }
+
+  .informations {
+    gap: 15px; /* Diminui o espaçamento entre os botões */
+  }
+
+  .informations a {
+    font-size: 0.95rem; /* Diminui levemente a fonte das opções */
+  }
+}

@@ -27,3 +27,20 @@
   max-width: 500px;
   border-radius: 1rem;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Joga a imagem para baixo do texto */
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .containerLeft h1 {
+    text-align: center; /* Centraliza o título no celular */
+  }
+
+  .containerRight img {
+    max-width: 100%; /* Garante que a imagem não estoure a largura da tela */
+    height: auto;
+  }
+}
