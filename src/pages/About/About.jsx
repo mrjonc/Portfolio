@@ -12,8 +12,8 @@ function About() {
           <p>
             Estudante de Análise e Desenvolvimento de Sistemas em transição de
             carreira para a área de Tecnologia, com foco em Desenvolvimento Web
-            Frontend-End. Busco oportunidade como Desenvolvedor Júnior para
-            aplicar sólidos conhecimentos em lógica de programação, JavaScript e
+            Front-End. Busco oportunidade como Desenvolvedor Júnior para aplicar
+            sólidos conhecimentos em lógica de programação, JavaScript e
             frameworks modernos, aliados à minha experiência prévia em produção.
           </p>
         </div>
