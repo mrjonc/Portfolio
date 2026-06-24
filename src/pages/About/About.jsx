@@ -13,7 +13,7 @@ function About() {
         </div>
         <div className={styles.containerLeft}>
           <h1>Sobre mim:</h1>
-          <p style={{ color: "#95a5a6" }}>
+          <p style={{ color: "#95a5a6", fontSize: "3rem" }}>
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
