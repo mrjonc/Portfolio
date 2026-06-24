@@ -17,7 +17,7 @@ function Projects() {
       description: `Uma Landing Page onde tentei aperfeiçoar a técnica de estudos chamada "Pixel Perfect" que consiste em pegar um projeto já existente e cria-lo colocando em pratica suas habilidades.`,
 
       tools: ["HTML", "CSS"],
-      link: "https://mrjonc.github.io/landing-page/",
+      link: "https://mrjonc.github.io/Landing-Page/",
     },
 
     {
