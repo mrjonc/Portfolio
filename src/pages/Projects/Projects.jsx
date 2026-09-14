@@ -12,12 +12,12 @@ function Projects() {
     },
 
     {
-      img: "/assets/landing-page.png",
-      projectName: "Landing Page (Pixel Perfect)",
-      description: `Uma Landing Page onde tentei aperfeiçoar a técnica de estudos chamada "Pixel Perfect" que consiste em pegar um projeto já existente e cria-lo colocando em pratica suas habilidades.`,
+      img: "/assets/universe.png",
+      projectName: "Universe Mode Dashboard",
+      description: `Um projeto feito de fã para fã para gerir o modo de jogo chamado "Universe Mode" nos jogos da WWE.`,
 
-      tools: ["HTML", "CSS"],
-      link: "https://mrjonc.github.io/Landing-Page/",
+      tools: ["HTML", "CSS", "JavaScript", "ReactJS"],
+      link: "https://universemodedashboard.vercel.app",
     },
 
     {
