@@ -24,7 +24,7 @@ function Projects() {
       img: "/assets/library-movies-page.png",
       projectName: "Library Movies",
       description:
-        "O projeto busca listar, buscar e detalhar todos os filmes presentes na API TMBD .",
+        "O projeto busca listar, buscar e detalhar todos os filmes presentes na API TMBD.",
       tools: ["HTML", "CSS", "JavaScript", "ReactJS"],
       link: "https://library-movies-sigma.vercel.app",
     },
