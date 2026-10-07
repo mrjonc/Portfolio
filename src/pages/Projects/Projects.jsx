@@ -38,6 +38,15 @@ function Projects() {
       tools: ["HTML", "CSS", "JavaScript"],
       link: "https://to-do-list-project-drab.vercel.app/",
     },
+
+    {
+      img: "/assets/e-commerce.png",
+      projectName: "EducaPlay",
+      description:
+        "E-commerce digital de vendas de cursos diversos focados em: tecnologia, marketing, design e soft skills",
+      tools: ["HTML", "CSS", "JavaScript"],
+      link: "https://cursos-educa-play.vercel.app/",
+    },
   ];
   return (
     <>
