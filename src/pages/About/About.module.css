@@ -15,6 +15,7 @@
   gap: 1rem;
   font-size: 2rem;
   text-align: start;
+  color: #f2f4ff;
 }
 
 .containerLeft h1 {
@@ -23,25 +24,42 @@
   font-size: 2rem;
 }
 
+.containerLeft p {
+  line-height: 1.6;
+}
+
+.containerLeft .subtitle {
+  color: #22d3ee;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
 .containerRight img {
   max-width: 500px;
   border-radius: 1rem;
+  border: 1px solid rgba(139, 148, 255, 0.3);
+  box-shadow:
+    14px 14px 0 rgba(139, 92, 246, 0.35),
+    0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 768px) {
   .container {
-    flex-direction: column; /* Joga a imagem para baixo do texto */
+    flex-direction: column;
     text-align: center;
     gap: 1.5rem;
   }
 
   .containerLeft h1 {
-    text-align: center; /* Centraliza o título no celular */
+    text-align: center;
   }
 
   .containerRight img {
-    max-width: 100%; /* Garante que a imagem não estoure a largura da tela */
+    max-width: 100%;
     height: auto;
+    box-shadow:
+      8px 8px 0 rgba(139, 92, 246, 0.35),
+      0 12px 24px rgba(0, 0, 0, 0.4);
   }
 }
 
@@ -52,5 +70,9 @@
 
   .containerLeft p {
     font-size: 1.2rem;
+  }
+
+  .containerLeft .subtitle {
+    font-size: 1.7rem;
   }
 }
